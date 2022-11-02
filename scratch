@@ -1,0 +1,33 @@
+members
+
+-load all members - GET /members
+
+-load members by page - GET /members?size={size}&page={page}
+
+-search member - GET /members?q={query}
+
+-get member details - GET /members/{member-id}
+
+-create a new member - POST /members
+
+-delete an Existing Member - DELETE /members/{member-id}
+
+-update Member Details - PATCH /members/{member-id}
+
+books
+
+-load all books - GET /books
+
+-load books by page - GET /books
+
+-search books - GET /books
+
+-add a new book - POST /books
+
+-update book details - PATCH /books
+
+IssueNotes
+-create a new issue notes - POST /issue-notes
+
+ReturnNotes
+-create a new return note - POST /return-notes
